@@ -6,6 +6,15 @@
 -->
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139232749-1"></script>
+		<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'UA-139232749-1');
+		</script>
+
 		<title>Rocky's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -41,7 +50,6 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="generic.html">About Me</a></li>
-							<li><a href="elements.html">Elements</a></li>
 						</ul>
 					</nav>
 
@@ -51,7 +59,8 @@
 							<header>
 								<h1>Rocky Liang <br />
 								</h1>
-								<b><p><font size="+2">Welcome! I am a Masters student at the University of Waterloo with a focus on robotics and controls.
+								<p><font size="+2">Under construction as of April 2019, please check back soon for projects you're insterested in :)</font></p>
+								<b><p align="justify"><font size="+2">Welcome! I am a Masters student at the University of Waterloo with a focus on machine learning, robotics, and controls.
 									I also have ample experience in machine design.
 									You can find me on
 									<a href="https://www.linkedin.com/in/yuhui-liang-42013b8b/" target="_blank"><font color="0077BS">LinkedIn</font></a>
@@ -59,6 +68,7 @@
 									<a href="https://github.com/rockyyliang" target="_blank"><font color="000000">GitHub</font></a>
 									, or via liangrockyy (at) gmail dot com.
 								</font></p></b>
+
 								<b><font size="+2"><center>Projects</center></font></b>
 							</header>
 							<section class="tiles">
@@ -86,12 +96,23 @@
 								</article>
 								<article class="style3">
 									<span class="image">
+										<img src="images/pic08.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Model Predictive Control</h2>
+										<div class="content">
+											<p>Optimally control a system by predicting future plant behavior.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
 										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Feugiat</h2>
+										<h2>Autonomous Car Sensor Mount</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>A fully configurable sensor mounting solution for a Chevy Bolt.</p>
 										</div>
 									</a>
 								</article>
@@ -100,9 +121,9 @@
 										<img src="images/pic04.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Tempus</h2>
+										<h2>Electric Racecar Drivetrain</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>A in-hub drivetrain designed and built to withstand the rigors of motorsport.</p>
 										</div>
 									</a>
 								</article>
@@ -111,9 +132,9 @@
 										<img src="images/pic05.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Aliquam</h2>
+										<h2>2D Environment Sensing</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Using a sonar sensor to map the surrounding environment.</p>
 										</div>
 									</a>
 								</article>
@@ -122,9 +143,9 @@
 										<img src="images/pic06.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Veroeros</h2>
+										<h2>Sterling Engine</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>A heat engine that converts thermal energy to work.</p>
 										</div>
 									</a>
 								</article>
@@ -133,23 +154,13 @@
 										<img src="images/pic07.jpg" alt="" />
 									</span>
 									<a href="generic.html">
-										<h2>Ipsum</h2>
+										<h2>Fuel Spray Visualization</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Building a cost effective method to visualize fuel injector spray.</p>
 										</div>
 									</a>
 								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic08.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dolor</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
+								<!--
 								<article class="style1">
 									<span class="image">
 										<img src="images/pic09.jpg" alt="" />
@@ -161,8 +172,6 @@
 										</div>
 									</a>
 								</article>
-
-								<!--
 								<article class="style5">
 									<span class="image">
 										<img src="images/pic10.jpg" alt="" />
@@ -207,6 +216,11 @@
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/yuhui-liang-42013b8b/" target="_blank" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/rockyyliang" target="_blank" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+								<!--
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
@@ -222,9 +236,11 @@
 									<ul class="actions">
 										<li><input type="submit" value="Send" class="primary" /></li>
 									</ul>
-								</form>
+								</form>-->
 							</section>
 							<section>
+
+
 								<!--
 								<h2>Follow</h2>
 								<ul class="icons">
@@ -240,7 +256,7 @@
 							-->
 							</section>
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
